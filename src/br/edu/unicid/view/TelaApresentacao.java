@@ -169,15 +169,15 @@ public class TelaApresentacao extends JFrame {
 		btnLimpar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				txtQnt1.setText("0");
-				txtQnt2.setText("0");
-				txtQnt3.setText("0");
-				txtQnt4.setText("0");
+				txtQnt1.setText(null);
+				txtQnt2.setText(null);
+				txtQnt3.setText(null);
+				txtQnt4.setText(null);
 				
-				txtPreco1.setText("0.00");
-				txtPreco2.setText("0.00");
-				txtPreco3.setText("0.00");
-				txtPreco4.setText("0.00");
+				txtPreco1.setText(null);
+				txtPreco2.setText(null);
+				txtPreco3.setText(null);
+				txtPreco4.setText(null);
 				
 				txtTotal.setText(null);
 			}
